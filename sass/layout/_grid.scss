@@ -1,0 +1,26 @@
+.row {
+  max-width: $grid-width;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+
+  &:not(:last-child) {
+    margin-bottom: $vgutter;
+  }
+
+  [class^="col"] {
+    flex: 1;
+
+    &:not(:last-child) {
+      margin-right: $hgutter;
+    }
+  }
+
+  [class^="col-2"] {
+    flex: 2 0 $hgutter;
+  }
+
+  [class^="col-3"] {
+    flex: 3 0 $hgutter * 2;
+  }
+}
