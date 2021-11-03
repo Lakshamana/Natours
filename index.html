@@ -228,9 +228,44 @@
                     <a class="btn-text" href="#">Read all stories &rarr;</a>
                 </div>
             </section>
-            <section class="section-booking">
+            <section class="section-book">
                 <div class="row">
-                    <div class="book"></div>
+                    <div class="book">
+                        <div class="book__form">
+                            <form class="form" action="#">
+                                <div class="u-mb-medium">
+                                    <h2 class="heading-secondary">Start booking now</h2>
+                                </div>
+                                <div class="form__group">
+                                    <input id="name" class="form__input" type="text" placeholder="Full Name" required>
+                                    <label class="form__label" for="name">Full Name</label>
+                                </div>
+                                <div class="form__group">
+                                    <input id="email" class="form__input" type="email" placeholder="Email address" required>
+                                    <label class="form__label" for="email">Email address</label>
+                                </div>
+                                <div class="form__group form__radio-container u-mb-medium">
+                                    <div class="form__radio-group">
+                                        <input id="small" class="form__radio-input" type="radio" name="size">
+                                        <label class="form__radio-label" for="small">
+                                            <span class="form__radio-btn"></span>
+                                            Small tour group
+                                        </label>
+                                    </div>
+                                    <div class="form__radio-group">
+                                        <input id="large" class="form__radio-input" type="radio" name="size">
+                                        <label class="form__radio-label" for="large">
+                                            <span class="form__radio-btn"></span>
+                                            Large tour group
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form__group">
+                                    <button class="btn btn--green">Next Step &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>
